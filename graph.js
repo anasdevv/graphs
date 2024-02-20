@@ -456,7 +456,7 @@ if (!root) {
 let goal = process.argv[3];
 if (!goal) {
   console.log('goal not specified using Bucharest as goal');
-  root = 'Bucharest';
+  goal = 'Bucharest';
 }
 
 const nodes = romaniaMap.getNodes();
